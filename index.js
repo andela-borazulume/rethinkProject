@@ -7,6 +7,10 @@ var env = process.env.NODE_ENV || 'development';
 var config = require('./config/config')[env];
 var thinky = require('./config/thinky');
 var _ = require('lodash');
+var path = require('path');
+
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.use(bodyParser.urlencoded({
 	extended: true

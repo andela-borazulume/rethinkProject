@@ -15,6 +15,5 @@
  });
 
  Post.hasMany(Comments, 'comments', 'id', 'post_id');
- // Comments.belongsTo(Post, 'post', 'post_id', 'id');
 
  module.exports = Post;

@@ -3,10 +3,13 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "~1.0.1",
+    "connect-multiparty": "^1.2.5",
+    "cors": "^2.6.0",
     "express": "~4.0.0",
     "lodash": "^3.8.0",
     "mongoose": "~3.6.13",
     "rethinkdb": "^2.0.0",
+    "s3fs": "git://github.com/RiptideCloud/s3fs.git",
     "thinky": "^1.16.12"
   }
 }

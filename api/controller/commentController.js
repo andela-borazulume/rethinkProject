@@ -20,7 +20,7 @@ exports.getOneComment = function(req, res, err){
 	}
 };
 
-exports.create = function(req, res) {
+exports.create = function(req, res) { console.log(req.body);
 	var comments = new Comments(req.body);
 	comments.saveAll().then(function(data) {
 		res.json(data);

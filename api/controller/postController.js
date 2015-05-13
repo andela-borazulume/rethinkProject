@@ -16,7 +16,6 @@ exports.create = function(req, res) {
 	}).error(function(err) {
 		res.status(400).json(err);
 	});
-
 };
 
 exports.getPostById = function(req, res, err) {
@@ -30,7 +29,7 @@ exports.getPostById = function(req, res, err) {
 
 exports.update = function(req, res) {
 	var post = req.post;
-	post = _.extend(post, req.body);
+	 post = _.extend(post, req.body);
 	post.saveAll().then(function(post) {
 		res.json(post);
 	}).error(function(err) {
@@ -47,23 +46,6 @@ exports.delete = function(req, res) {
 	});
 };
 
-// exports.getCommentsByPostId = function(req, res, id) {
-// 	Posts.get(id).run().then(function(comments) {
-// 		res.json(comments);
-// 	}).error(function(err) {
-// 		res.status(400).json(err);
-// 	});
-
-// };
-
-// exports.createCommentsByPostId = function(req, res){
-// 	var posts = new Posts(req.body);
-// 	posts.saveAll().then(function(comments) {
-// 		res.json(comments);
-// 	}).error(function(err) {
-// 		res.status(400).json(err);
-// 	});
-// };
 exports.postById = function(req, res, next, id) {
 	Posts.get(id).getJoin().run().then(function(post) {
 		req.post = post;
