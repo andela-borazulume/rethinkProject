@@ -1,0 +1,443 @@
+2015-05-08T01:09:16.065103000 0.749691s notice: Recursively removing directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data/tmp
+2015-05-08T01:09:16.066867000 0.751458s notice: Initializing directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-08T01:09:16.067039000 0.751626s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data' did not already exist or is empty.)
+2015-05-08T01:09:16.067089000 0.751676s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-08T01:09:16.072619000 0.757207s notice: Running on Darwin 14.0.0 x86_64
+2015-05-08T01:09:16.072663000 0.757250s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-08T01:09:18.585528000 3.270166s info: Automatically using cache size of 100 MB
+2015-05-08T01:09:18.585538000 3.270176s warn: Cache size does not leave much memory for server and query overhead (available memory: 525 MB).
+2015-05-08T01:09:18.585545000 3.270183s warn: Cache size is very low and may impact performance.
+2015-05-08T01:09:18.658185000 3.342874s notice: Listening for intracluster connections on port 29015
+2015-05-08T01:09:18.700468000 3.385157s notice: Listening for client driver connections on port 28015
+2015-05-08T01:09:18.700563000 3.385252s notice: Listening for administrative HTTP connections on port 8080
+2015-05-08T01:09:18.700568000 3.385257s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-08T01:09:18.700586000 3.385276s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-08T01:09:18.700594000 3.385283s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-08T10:27:26.247213000 14344.277443s notice: Server got SIGINT from pid 324, uid 503; shutting down...
+2015-05-08T10:27:26.273194000 14344.303425s notice: Shutting down client connections...
+2015-05-08T10:27:26.273409000 14344.303638s notice: All client connections closed.
+2015-05-08T10:27:26.273413000 14344.303642s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-08T10:27:26.388940000 14344.419170s notice: Storage engine shut down.
+2015-05-08T10:34:50.879632000 0.004848s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-08T10:34:50.883737000 0.008950s notice: Running on Darwin 14.0.0 x86_64
+2015-05-08T10:34:50.883816000 0.009028s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-08T10:34:51.675354000 0.800566s info: Automatically using cache size of 100 MB
+2015-05-08T10:34:51.675366000 0.800578s warn: Cache size does not leave much memory for server and query overhead (available memory: 988 MB).
+2015-05-08T10:34:51.675375000 0.800587s warn: Cache size is very low and may impact performance.
+2015-05-08T10:34:51.676174000 0.801387s notice: Listening for intracluster connections on port 29015
+2015-05-08T10:34:51.677252000 0.802464s notice: Listening for client driver connections on port 28015
+2015-05-08T10:34:51.677456000 0.802668s notice: Listening for administrative HTTP connections on port 8080
+2015-05-08T10:34:51.677459000 0.802670s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-08T10:34:51.677463000 0.802675s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-08T10:34:51.677464000 0.802676s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-08T10:35:21.700614000 30.825827s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2015-05-11T11:22:33.874032000 0.605898s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-11T11:22:34.026050000 0.757911s notice: Running on Darwin 14.0.0 x86_64
+2015-05-11T11:22:34.026107000 0.757967s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-11T11:22:35.707952000 2.439868s info: Automatically using cache size of 100 MB
+2015-05-11T11:22:35.707968000 2.439883s warn: Cache size is larger than available memory.
+2015-05-11T11:22:35.707975000 2.439889s warn: Cache size is very low and may impact performance.
+2015-05-11T11:22:35.708511000 2.440426s error: TCP socket creation failed for port 29015: Address already in use.
+2015-05-11T11:22:48.321282000 0.005848s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-11T11:22:48.348469000 0.033032s notice: Running on Darwin 14.0.0 x86_64
+2015-05-11T11:22:48.348522000 0.033084s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-11T11:22:49.246316000 0.930878s info: Automatically using cache size of 100 MB
+2015-05-11T11:22:49.246325000 0.930887s warn: Cache size is larger than available memory.
+2015-05-11T11:22:49.246332000 0.930894s warn: Cache size is very low and may impact performance.
+2015-05-11T11:22:49.247047000 0.931609s notice: Listening for intracluster connections on port 29015
+2015-05-11T11:22:49.247907000 0.932469s notice: Listening for client driver connections on port 28015
+2015-05-11T11:22:49.248088000 0.932651s notice: Listening for administrative HTTP connections on port 8080
+2015-05-11T11:22:49.248091000 0.932653s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-11T11:22:49.248096000 0.932657s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-11T11:22:49.248100000 0.932662s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-11T11:26:49.852107000 241.544552s notice: Server got SIGINT from pid 324, uid 503; shutting down...
+2015-05-11T11:26:49.852252000 241.544697s notice: Shutting down client connections...
+2015-05-11T11:26:49.853743000 241.546188s notice: All client connections closed.
+2015-05-11T11:26:49.853757000 241.546202s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-11T11:26:49.866361000 241.558807s notice: Storage engine shut down.
+2015-05-11T12:10:02.499702000 0.856995s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-11T12:10:02.648491000 1.005781s notice: Running on Darwin 14.0.0 x86_64
+2015-05-11T12:10:02.648568000 1.005857s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-11T12:10:04.516634000 2.873978s info: Automatically using cache size of 100 MB
+2015-05-11T12:10:04.516643000 2.873986s warn: Cache size is larger than available memory.
+2015-05-11T12:10:04.516647000 2.873991s warn: Cache size is very low and may impact performance.
+2015-05-11T12:10:04.555970000 2.913314s notice: Listening for intracluster connections on port 29015
+2015-05-11T12:10:04.556897000 2.914241s notice: Listening for client driver connections on port 28015
+2015-05-11T12:10:04.557075000 2.914419s notice: Listening for administrative HTTP connections on port 8080
+2015-05-11T12:10:04.557085000 2.914428s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-11T12:10:04.557092000 2.914436s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-11T12:10:04.557107000 2.914451s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-11T12:57:39.374189000 2857.824862s notice: Server got SIGINT from pid 324, uid 503; shutting down...
+2015-05-11T12:57:39.374359000 2857.825031s notice: Shutting down client connections...
+2015-05-11T12:57:39.391661000 2857.842333s notice: All client connections closed.
+2015-05-11T12:57:39.391682000 2857.842354s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-11T12:57:39.539671000 2857.990343s notice: Storage engine shut down.
+2015-05-11T13:35:20.331224000 0.514461s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-11T13:35:20.396914000 0.580148s notice: Running on Darwin 14.0.0 x86_64
+2015-05-11T13:35:20.396978000 0.580209s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-11T13:35:21.916818000 2.100104s info: Automatically using cache size of 100 MB
+2015-05-11T13:35:21.916827000 2.100113s warn: Cache size does not leave much memory for server and query overhead (available memory: 118 MB).
+2015-05-11T13:35:21.916832000 2.100117s warn: Cache size is very low and may impact performance.
+2015-05-11T13:35:21.917562000 2.100848s notice: Listening for intracluster connections on port 29015
+2015-05-11T13:35:21.918405000 2.101690s notice: Listening for client driver connections on port 28015
+2015-05-11T13:35:21.918535000 2.101822s notice: Listening for administrative HTTP connections on port 8080
+2015-05-11T13:35:21.918540000 2.101825s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-11T13:35:21.918549000 2.101835s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-11T13:35:21.918559000 2.101844s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-12T12:12:36.663504000 0.004963s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-12T12:12:36.726135000 0.067590s notice: Running on Darwin 14.0.0 x86_64
+2015-05-12T12:12:36.726196000 0.067650s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-12T12:12:37.483104000 0.824558s info: Automatically using cache size of 328 MB
+2015-05-12T12:12:37.483729000 0.825183s notice: Listening for intracluster connections on port 29015
+2015-05-12T12:12:37.484667000 0.826121s notice: Listening for client driver connections on port 28015
+2015-05-12T12:12:37.484769000 0.826223s notice: Listening for administrative HTTP connections on port 8080
+2015-05-12T12:12:37.484793000 0.826247s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-12T12:12:37.484795000 0.826249s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-12T12:12:37.484800000 0.826254s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-12T17:08:40.590755000 0.773711s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-12T17:08:40.621187000 0.804140s notice: Running on Darwin 14.0.0 x86_64
+2015-05-12T17:08:40.621231000 0.804183s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-12T17:08:41.492439000 1.675431s info: Automatically using cache size of 100 MB
+2015-05-12T17:08:41.492452000 1.675444s warn: Cache size is very low and may impact performance.
+2015-05-12T17:08:41.526192000 1.709198s notice: Listening for intracluster connections on port 29015
+2015-05-12T17:08:41.527017000 1.710023s notice: Listening for client driver connections on port 28015
+2015-05-12T17:08:41.527207000 1.710213s notice: Listening for administrative HTTP connections on port 8080
+2015-05-12T17:08:41.527209000 1.710215s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-12T17:08:41.527214000 1.710220s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-12T17:08:41.527220000 1.710225s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-12T19:25:29.536271000 0.692232s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-12T19:25:29.540725000 0.696681s notice: Running on Darwin 14.0.0 x86_64
+2015-05-12T19:25:29.540783000 0.696738s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-12T19:25:30.290798000 1.446813s info: Automatically using cache size of 159 MB
+2015-05-12T19:25:30.330936000 1.486951s notice: Listening for intracluster connections on port 29015
+2015-05-12T19:25:30.331900000 1.487915s notice: Listening for client driver connections on port 28015
+2015-05-12T19:25:30.331994000 1.488009s notice: Listening for administrative HTTP connections on port 8080
+2015-05-12T19:25:30.331997000 1.488012s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-12T19:25:30.332005000 1.488019s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-12T19:25:30.332006000 1.488021s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-13T16:03:12.466740000 29289.884478s notice: Server got SIGINT from pid 355, uid 503; shutting down...
+2015-05-13T16:03:12.466881000 29289.884619s notice: Shutting down client connections...
+2015-05-13T16:03:12.470252000 29289.887991s notice: All client connections closed.
+2015-05-13T16:03:12.470258000 29289.887996s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-13T16:03:12.521883000 29289.939621s notice: Storage engine shut down.
+2015-05-13T16:25:27.950229000 0.593684s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-13T16:25:27.996529000 0.639979s notice: Running on Darwin 14.0.0 x86_64
+2015-05-13T16:25:27.996577000 0.640026s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-13T16:25:28.607254000 1.250752s info: Automatically using cache size of 678 MB
+2015-05-13T16:25:28.607970000 1.251469s notice: Listening for intracluster connections on port 29015
+2015-05-13T16:25:28.608988000 1.252487s notice: Listening for client driver connections on port 28015
+2015-05-13T16:25:28.609113000 1.252611s notice: Listening for administrative HTTP connections on port 8080
+2015-05-13T16:25:28.609115000 1.252614s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-13T16:25:28.609119000 1.252617s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-13T16:25:28.609120000 1.252618s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-13T19:49:46.528559000 11518.854473s notice: Server got SIGINT from pid 355, uid 503; shutting down...
+2015-05-13T19:49:46.528681000 11518.854595s notice: Shutting down client connections...
+2015-05-13T19:49:46.537575000 11518.863489s notice: All client connections closed.
+2015-05-13T19:49:46.537592000 11518.863506s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-13T19:49:46.549444000 11518.875360s notice: Storage engine shut down.
+2015-05-14T07:30:27.784391000 0.872751s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-14T07:30:27.831652000 0.920030s notice: Running on Darwin 14.0.0 x86_64
+2015-05-14T07:30:27.831815000 0.920171s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-14T07:30:28.999908000 2.088312s info: Automatically using cache size of 100 MB
+2015-05-14T07:30:28.999918000 2.088323s warn: Cache size does not leave much memory for server and query overhead (available memory: 1029 MB).
+2015-05-14T07:30:28.999925000 2.088329s warn: Cache size is very low and may impact performance.
+2015-05-14T07:30:29.000761000 2.089166s notice: Listening for intracluster connections on port 29015
+2015-05-14T07:30:29.039242000 2.127647s notice: Listening for client driver connections on port 28015
+2015-05-14T07:30:29.039569000 2.127973s notice: Listening for administrative HTTP connections on port 8080
+2015-05-14T07:30:29.039571000 2.127976s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-14T07:30:29.039577000 2.127982s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-14T07:30:29.039584000 2.127988s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-14T07:40:59.522856000 632.640257s notice: Server got SIGINT from pid 355, uid 503; shutting down...
+2015-05-14T07:40:59.523074000 632.640475s notice: Shutting down client connections...
+2015-05-14T07:40:59.523327000 632.640728s notice: All client connections closed.
+2015-05-14T07:40:59.523334000 632.640734s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-14T07:40:59.530356000 632.647756s notice: Storage engine shut down.
+2015-05-15T06:27:34.845450000 0.732644s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-15T06:27:34.924306000 0.811492s notice: Running on Darwin 14.0.0 x86_64
+2015-05-15T06:27:34.924362000 0.811547s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-15T06:27:35.638858000 1.526093s info: Automatically using cache size of 100 MB
+2015-05-15T06:27:35.638871000 1.526106s warn: Cache size does not leave much memory for server and query overhead (available memory: 781 MB).
+2015-05-15T06:27:35.638881000 1.526117s warn: Cache size is very low and may impact performance.
+2015-05-15T06:27:35.639666000 1.526902s notice: Listening for intracluster connections on port 29015
+2015-05-15T06:27:35.689557000 1.576793s notice: Listening for client driver connections on port 28015
+2015-05-15T06:27:35.689799000 1.577034s notice: Listening for administrative HTTP connections on port 8080
+2015-05-15T06:27:35.689813000 1.577049s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-15T06:27:35.689824000 1.577060s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-15T06:27:35.689838000 1.577074s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-18T10:35:17.849879000 0.731367s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-18T10:35:17.910234000 0.791719s notice: Running on Darwin 14.0.0 x86_64
+2015-05-18T10:35:17.910359000 0.791842s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-18T10:35:18.816765000 1.698247s info: Automatically using cache size of 100 MB
+2015-05-18T10:35:18.816776000 1.698258s warn: Cache size does not leave much memory for server and query overhead (available memory: 286 MB).
+2015-05-18T10:35:18.816784000 1.698267s warn: Cache size is very low and may impact performance.
+2015-05-18T10:35:18.883552000 1.765035s notice: Listening for intracluster connections on port 29015
+2015-05-18T10:35:18.904101000 1.785628s notice: Listening for client driver connections on port 28015
+2015-05-18T10:35:18.904268000 1.785798s notice: Listening for administrative HTTP connections on port 8080
+2015-05-18T10:35:18.904281000 1.785808s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-18T10:35:18.904294000 1.785820s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-18T10:35:18.904308000 1.785835s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-18T10:35:48.328943000 31.211644s notice: Server got SIGINT from pid 321, uid 503; shutting down...
+2015-05-18T10:35:48.329116000 31.211817s notice: Shutting down client connections...
+2015-05-18T10:35:48.329216000 31.211917s notice: All client connections closed.
+2015-05-18T10:35:48.329224000 31.211924s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-18T10:35:48.335478000 31.218179s notice: Storage engine shut down.
+2015-05-18T10:35:50.261460000 0.004931s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-18T10:35:50.266209000 0.009677s notice: Running on Darwin 14.0.0 x86_64
+2015-05-18T10:35:50.266273000 0.009740s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-18T10:35:51.066451000 0.809961s info: Automatically using cache size of 100 MB
+2015-05-18T10:35:51.066460000 0.809970s warn: Cache size does not leave much memory for server and query overhead (available memory: 277 MB).
+2015-05-18T10:35:51.066465000 0.809975s warn: Cache size is very low and may impact performance.
+2015-05-18T10:35:51.067184000 0.810694s notice: Listening for intracluster connections on port 29015
+2015-05-18T10:35:51.068299000 0.811809s notice: Listening for client driver connections on port 28015
+2015-05-18T10:35:51.068436000 0.811946s notice: Listening for administrative HTTP connections on port 8080
+2015-05-18T10:35:51.068438000 0.811947s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-18T10:35:51.068441000 0.811951s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-18T10:35:51.068442000 0.811952s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-19T01:03:14.077071000 28193.915126s notice: Server got SIGINT from pid 321, uid 503; shutting down...
+2015-05-19T01:03:14.077384000 28193.915438s notice: Shutting down client connections...
+2015-05-19T01:03:14.077590000 28193.915644s notice: All client connections closed.
+2015-05-19T01:03:14.077594000 28193.915648s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-19T01:03:14.088574000 28193.926628s notice: Storage engine shut down.
+2015-05-20T12:06:43.096384000 0.727791s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-20T12:06:43.128043000 0.759367s notice: Running on Darwin 14.0.0 x86_64
+2015-05-20T12:06:43.128093000 0.759415s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-20T12:06:43.759976000 1.391298s info: Automatically using cache size of 236 MB
+2015-05-20T12:06:43.811157000 1.442479s notice: Listening for intracluster connections on port 29015
+2015-05-20T12:06:43.842975000 1.474297s notice: Listening for client driver connections on port 28015
+2015-05-20T12:06:43.843126000 1.474448s notice: Listening for administrative HTTP connections on port 8080
+2015-05-20T12:06:43.843133000 1.474454s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-20T12:06:43.843134000 1.474455s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-20T12:06:43.843137000 1.474458s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-20T12:24:36.024337000 0.750542s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-20T12:24:36.028419000 0.754621s notice: Running on Darwin 14.0.0 x86_64
+2015-05-20T12:24:36.028465000 0.754666s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-20T12:24:37.613909000 2.339950s info: Automatically using cache size of 687 MB
+2015-05-20T12:24:37.660915000 2.386956s notice: Listening for intracluster connections on port 29015
+2015-05-20T12:24:37.681467000 2.407508s notice: Listening for client driver connections on port 28015
+2015-05-20T12:24:37.681657000 2.407697s notice: Listening for administrative HTTP connections on port 8080
+2015-05-20T12:24:37.681662000 2.407703s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-20T12:24:37.681683000 2.407724s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-20T12:24:37.681696000 2.407737s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-21T16:22:07.039089000 0.601924s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-21T16:22:07.081686000 0.644518s notice: Running on Darwin 14.0.0 x86_64
+2015-05-21T16:22:07.081743000 0.644573s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-21T16:22:07.739508000 1.302338s info: Automatically using cache size of 938 MB
+2015-05-21T16:22:07.740059000 1.302889s notice: Listening for intracluster connections on port 29015
+2015-05-21T16:22:07.740872000 1.303702s notice: Listening for client driver connections on port 28015
+2015-05-21T16:22:07.741052000 1.303883s notice: Listening for administrative HTTP connections on port 8080
+2015-05-21T16:22:07.741077000 1.303907s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-21T16:22:07.741079000 1.303909s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-21T16:22:07.741084000 1.303914s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-22T16:54:09.109575000 0.733395s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-22T16:54:09.259247000 0.883065s notice: Running on Darwin 14.0.0 x86_64
+2015-05-22T16:54:09.259385000 0.883202s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-22T16:54:10.210111000 1.833846s info: Automatically using cache size of 171 MB
+2015-05-22T16:54:10.263255000 1.886991s notice: Listening for intracluster connections on port 29015
+2015-05-22T16:54:10.294953000 1.918690s notice: Listening for client driver connections on port 28015
+2015-05-22T16:54:10.295127000 1.918862s notice: Listening for administrative HTTP connections on port 8080
+2015-05-22T16:54:10.295130000 1.918865s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-22T16:54:10.295135000 1.918870s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-22T16:54:10.295136000 1.918871s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-22T16:54:11.394770000 3.018505s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-05-22T17:10:22.091314000 973.947630s notice: Server got SIGINT from pid 343, uid 503; shutting down...
+2015-05-22T17:10:22.091432000 973.947748s notice: Shutting down client connections...
+2015-05-22T17:10:22.094020000 973.950336s notice: All client connections closed.
+2015-05-22T17:10:22.094033000 973.950349s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-22T17:10:22.103708000 973.960025s notice: Storage engine shut down.
+2015-05-22T17:10:23.811385000 0.503201s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-22T17:10:23.816183000 0.507996s notice: Running on Darwin 14.0.0 x86_64
+2015-05-22T17:10:23.816242000 0.508054s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-22T17:10:24.896586000 1.588318s info: Automatically using cache size of 100 MB
+2015-05-22T17:10:24.896598000 1.588330s warn: Cache size does not leave much memory for server and query overhead (available memory: 565 MB).
+2015-05-22T17:10:24.896603000 1.588335s warn: Cache size is very low and may impact performance.
+2015-05-22T17:10:24.897314000 1.589046s notice: Listening for intracluster connections on port 29015
+2015-05-22T17:10:24.898253000 1.589985s notice: Listening for client driver connections on port 28015
+2015-05-22T17:10:24.898377000 1.590109s notice: Listening for administrative HTTP connections on port 8080
+2015-05-22T17:10:24.898379000 1.590111s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-22T17:10:24.898383000 1.590115s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-22T17:10:24.898387000 1.590119s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-22T17:10:25.447108000 2.138840s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-05-23T05:25:09.902448000 18976.514392s notice: Server got SIGINT from pid 343, uid 503; shutting down...
+2015-05-23T05:25:09.974117000 18976.586061s notice: Shutting down client connections...
+2015-05-23T05:25:09.986846000 18976.598789s notice: All client connections closed.
+2015-05-23T05:25:09.986865000 18976.598808s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-23T05:25:10.199407000 18976.811351s notice: Storage engine shut down.
+2015-05-25T02:39:56.837285000 0.602750s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-25T02:39:56.872244000 0.637706s notice: Running on Darwin 14.0.0 x86_64
+2015-05-25T02:39:56.872309000 0.637769s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-25T02:39:57.499445000 1.264906s info: Automatically using cache size of 634 MB
+2015-05-25T02:39:57.500016000 1.265477s notice: Listening for intracluster connections on port 29015
+2015-05-25T02:39:57.501031000 1.266492s notice: Listening for client driver connections on port 28015
+2015-05-25T02:39:57.501149000 1.266610s notice: Listening for administrative HTTP connections on port 8080
+2015-05-25T02:39:57.501151000 1.266612s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-25T02:39:57.501154000 1.266615s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-25T02:39:57.501155000 1.266615s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-25T02:39:59.424144000 3.189453s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-05-25T02:41:32.098180000 95.856939s notice: Server got SIGINT from pid 327, uid 503; shutting down...
+2015-05-25T02:41:32.098342000 95.857100s notice: Shutting down client connections...
+2015-05-25T02:41:32.098484000 95.857242s notice: All client connections closed.
+2015-05-25T02:41:32.098492000 95.857249s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-25T02:41:32.104937000 95.863695s notice: Storage engine shut down.
+2015-05-25T11:14:39.987335000 0.747395s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-25T11:14:40.151561000 0.911537s notice: Running on Darwin 14.0.0 x86_64
+2015-05-25T11:14:40.151615000 0.911589s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-25T11:14:40.940425000 1.700400s info: Automatically using cache size of 676 MB
+2015-05-25T11:14:40.982989000 1.742963s notice: Listening for intracluster connections on port 29015
+2015-05-25T11:14:41.014524000 1.774500s notice: Listening for client driver connections on port 28015
+2015-05-25T11:14:41.014749000 1.774723s notice: Listening for administrative HTTP connections on port 8080
+2015-05-25T11:14:41.014752000 1.774726s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-25T11:14:41.014756000 1.774730s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-25T11:14:41.014758000 1.774732s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-25T11:14:41.699784000 2.459678s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-05-25T11:24:01.020180000 561.741190s notice: Server got SIGINT from pid 327, uid 503; shutting down...
+2015-05-25T11:24:01.062056000 561.783066s notice: Shutting down client connections...
+2015-05-25T11:24:01.062268000 561.783278s notice: All client connections closed.
+2015-05-25T11:24:01.062275000 561.783284s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-25T11:24:01.214391000 561.935401s notice: Storage engine shut down.
+2015-05-25T11:25:11.246070000 0.603801s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-25T11:25:11.252375000 0.610102s notice: Running on Darwin 14.0.0 x86_64
+2015-05-25T11:25:11.252441000 0.610167s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-25T11:25:11.948268000 1.305914s info: Automatically using cache size of 100 MB
+2015-05-25T11:25:11.948278000 1.305924s warn: Cache size is larger than available memory.
+2015-05-25T11:25:11.948284000 1.305929s warn: Cache size is very low and may impact performance.
+2015-05-25T11:25:11.949063000 1.306709s notice: Listening for intracluster connections on port 29015
+2015-05-25T11:25:11.949898000 1.307544s notice: Listening for client driver connections on port 28015
+2015-05-25T11:25:11.950080000 1.307726s notice: Listening for administrative HTTP connections on port 8080
+2015-05-25T11:25:11.950084000 1.307730s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-25T11:25:11.950128000 1.307774s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-25T11:25:11.950143000 1.307789s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-25T11:25:12.495109000 1.852675s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-05-26T12:54:54.512523000 46130.583654s notice: Server got SIGINT from pid 327, uid 503; shutting down...
+2015-05-26T12:54:54.615171000 46130.686302s notice: Shutting down client connections...
+2015-05-26T12:54:54.670583000 46130.741715s notice: All client connections closed.
+2015-05-26T12:54:54.670633000 46130.741764s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-26T12:54:55.043181000 46131.114312s notice: Storage engine shut down.
+2015-05-27T13:04:51.904703000 0.135081s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-27T13:04:51.919770000 0.150143s notice: Running on Darwin 14.0.0 x86_64
+2015-05-27T13:04:51.919843000 0.150214s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-05-27T13:04:52.526063000 0.756435s info: Automatically using cache size of 100 MB
+2015-05-27T13:04:52.526076000 0.756448s warn: Cache size is larger than available memory.
+2015-05-27T13:04:52.526084000 0.756455s warn: Cache size is very low and may impact performance.
+2015-05-27T13:04:52.579011000 0.809383s notice: Listening for intracluster connections on port 29015
+2015-05-27T13:04:52.610392000 0.840763s notice: Listening for client driver connections on port 28015
+2015-05-27T13:04:52.610536000 0.840907s notice: Listening for administrative HTTP connections on port 8080
+2015-05-27T13:04:52.610542000 0.840914s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-27T13:04:52.610549000 0.840921s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-27T13:04:52.610554000 0.840925s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-05-27T13:04:53.367179000 1.597463s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-06-01T02:31:40.263592000 0.675377s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-06-01T02:31:40.348175000 0.759958s notice: Running on Darwin 14.0.0 x86_64
+2015-06-01T02:31:40.348253000 0.760033s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-06-01T02:31:41.063985000 1.475685s info: Automatically using cache size of 100 MB
+2015-06-01T02:31:41.063993000 1.475693s warn: Cache size is larger than available memory.
+2015-06-01T02:31:41.063998000 1.475698s warn: Cache size is very low and may impact performance.
+2015-06-01T02:31:41.119641000 1.531342s notice: Listening for intracluster connections on port 29015
+2015-06-01T02:31:41.151364000 1.563066s notice: Listening for client driver connections on port 28015
+2015-06-01T02:31:41.151661000 1.563361s notice: Listening for administrative HTTP connections on port 8080
+2015-06-01T02:31:41.151663000 1.563363s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-01T02:31:41.151667000 1.563367s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-01T02:31:41.151669000 1.563369s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-06-01T02:31:42.233166000 2.644787s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-06-01T02:46:33.066265000 893.431747s notice: Server got SIGINT from pid 327, uid 503; shutting down...
+2015-06-01T02:46:33.066607000 893.432090s notice: Shutting down client connections...
+2015-06-01T02:46:33.066867000 893.432349s notice: All client connections closed.
+2015-06-01T02:46:33.066878000 893.432360s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-01T02:46:33.345993000 893.711476s notice: Storage engine shut down.
+2015-06-01T02:46:35.876507000 0.506316s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-06-01T02:46:35.950477000 0.580283s notice: Running on Darwin 14.0.0 x86_64
+2015-06-01T02:46:35.950660000 0.580465s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-06-01T02:46:36.706909000 1.336633s info: Automatically using cache size of 100 MB
+2015-06-01T02:46:36.706920000 1.336644s warn: Cache size is larger than available memory.
+2015-06-01T02:46:36.706927000 1.336650s warn: Cache size is very low and may impact performance.
+2015-06-01T02:46:36.707647000 1.337371s notice: Listening for intracluster connections on port 29015
+2015-06-01T02:46:36.708712000 1.338436s notice: Listening for client driver connections on port 28015
+2015-06-01T02:46:36.708841000 1.338564s notice: Listening for administrative HTTP connections on port 8080
+2015-06-01T02:46:36.708847000 1.338570s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-01T02:46:36.708852000 1.338576s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-01T02:46:36.708857000 1.338580s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-06-01T02:46:37.281442000 1.911166s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-06-01T02:48:53.953901000 138.576472s notice: Server got SIGINT from pid 327, uid 503; shutting down...
+2015-06-01T02:48:53.954002000 138.576573s notice: Shutting down client connections...
+2015-06-01T02:48:53.964677000 138.587248s notice: All client connections closed.
+2015-06-01T02:48:53.964695000 138.587266s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-01T02:48:53.983722000 138.606293s notice: Storage engine shut down.
+2015-06-01T02:49:08.116458000 0.602199s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-06-01T02:49:08.159063000 0.644815s notice: Running on Darwin 14.0.0 x86_64
+2015-06-01T02:49:08.159164000 0.644899s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-06-01T02:49:09.029109000 1.514844s info: Automatically using cache size of 100 MB
+2015-06-01T02:49:09.029119000 1.514854s warn: Cache size is larger than available memory.
+2015-06-01T02:49:09.029125000 1.514859s warn: Cache size is very low and may impact performance.
+2015-06-01T02:49:09.029811000 1.515546s notice: Listening for intracluster connections on port 29015
+2015-06-01T02:49:09.031001000 1.516736s notice: Listening for client driver connections on port 28015
+2015-06-01T02:49:09.031140000 1.516875s notice: Listening for administrative HTTP connections on port 8080
+2015-06-01T02:49:09.031147000 1.516881s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-01T02:49:09.031148000 1.516882s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-01T02:49:09.031151000 1.516886s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-06-01T02:49:09.721467000 2.207122s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-06-01T03:26:01.364768000 2214.390890s notice: Server got SIGINT from pid 327, uid 503; shutting down...
+2015-06-01T03:26:01.365064000 2214.391185s notice: Shutting down client connections...
+2015-06-01T03:26:01.365172000 2214.391293s notice: All client connections closed.
+2015-06-01T03:26:01.365177000 2214.391298s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-01T03:26:01.390173000 2214.416295s notice: Storage engine shut down.
+2015-06-01T03:26:05.414241000 0.617235s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-06-01T03:26:05.420713000 0.623699s notice: Running on Darwin 14.0.0 x86_64
+2015-06-01T03:26:05.420784000 0.623767s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-06-01T03:26:07.585206000 2.788029s info: Automatically using cache size of 100 MB
+2015-06-01T03:26:07.585226000 2.788049s warn: Cache size is larger than available memory.
+2015-06-01T03:26:07.585236000 2.788059s warn: Cache size is very low and may impact performance.
+2015-06-01T03:26:07.586045000 2.788868s notice: Listening for intracluster connections on port 29015
+2015-06-01T03:26:07.587684000 2.790507s notice: Listening for client driver connections on port 28015
+2015-06-01T03:26:07.587843000 2.790665s notice: Listening for administrative HTTP connections on port 8080
+2015-06-01T03:26:07.587855000 2.790677s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-01T03:26:07.587856000 2.790678s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-01T03:26:07.587860000 2.790682s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-06-01T03:26:08.623088000 3.825911s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-06-01T04:31:02.418416000 3897.731692s notice: Server got SIGINT from pid 327, uid 503; shutting down...
+2015-06-01T04:31:02.418612000 3897.731888s notice: Shutting down client connections...
+2015-06-01T04:31:02.418709000 3897.731984s notice: All client connections closed.
+2015-06-01T04:31:02.418713000 3897.731988s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-01T04:31:02.445189000 3897.758465s notice: Storage engine shut down.
+2015-06-01T10:45:42.952636000 0.725003s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-06-01T10:45:43.045497000 0.817860s notice: Running on Darwin 14.0.0 x86_64
+2015-06-01T10:45:43.045647000 0.818008s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-06-01T10:45:44.115176000 1.887457s info: Automatically using cache size of 100 MB
+2015-06-01T10:45:44.115187000 1.887468s warn: Cache size is larger than available memory.
+2015-06-01T10:45:44.115193000 1.887474s warn: Cache size is very low and may impact performance.
+2015-06-01T10:45:44.116121000 1.888402s notice: Listening for intracluster connections on port 29015
+2015-06-01T10:45:44.155537000 1.927819s notice: Listening for client driver connections on port 28015
+2015-06-01T10:45:44.155815000 1.928096s notice: Listening for administrative HTTP connections on port 8080
+2015-06-01T10:45:44.155818000 1.928099s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-01T10:45:44.155828000 1.928109s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-01T10:45:44.155830000 1.928111s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-06-01T10:45:45.554963000 3.327164s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-06-02T13:18:31.606320000 0.725057s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-06-02T13:18:31.643590000 0.762322s notice: Running on Darwin 14.0.0 x86_64
+2015-06-02T13:18:31.643647000 0.762377s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-06-02T13:18:32.617496000 1.736146s info: Automatically using cache size of 100 MB
+2015-06-02T13:18:32.617504000 1.736155s warn: Cache size does not leave much memory for server and query overhead (available memory: 201 MB).
+2015-06-02T13:18:32.617509000 1.736159s warn: Cache size is very low and may impact performance.
+2015-06-02T13:18:32.657296000 1.775947s notice: Listening for intracluster connections on port 29015
+2015-06-02T13:18:32.689535000 1.808186s notice: Listening for client driver connections on port 28015
+2015-06-02T13:18:32.689801000 1.808451s notice: Listening for administrative HTTP connections on port 8080
+2015-06-02T13:18:32.689804000 1.808454s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-02T13:18:32.689817000 1.808467s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-02T13:18:32.689821000 1.808471s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-06-02T13:18:33.985819000 3.104389s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-06-04T13:17:43.876578000 0.727896s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-06-04T13:17:43.923463000 0.774775s notice: Running on Darwin 14.0.0 x86_64
+2015-06-04T13:17:43.923508000 0.774818s notice: Loading data from directory /Users/andela/workspace/firebaseTutorial/rethinkdbTutorial/rethinkdb_data
+2015-06-04T13:17:44.733016000 1.584347s info: Automatically using cache size of 100 MB
+2015-06-04T13:17:44.733025000 1.584355s warn: Cache size does not leave much memory for server and query overhead (available memory: 574 MB).
+2015-06-04T13:17:44.733029000 1.584360s warn: Cache size is very low and may impact performance.
+2015-06-04T13:17:44.769113000 1.620444s notice: Listening for intracluster connections on port 29015
+2015-06-04T13:17:44.801220000 1.652551s notice: Listening for client driver connections on port 28015
+2015-06-04T13:17:44.801399000 1.652730s notice: Listening for administrative HTTP connections on port 8080
+2015-06-04T13:17:44.801402000 1.652732s notice: Listening on addresses: 127.0.0.1, ::1
+2015-06-04T13:17:44.801419000 1.652750s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-04T13:17:44.801420000 1.652751s notice: Server ready, "macs_MacBook_Pro_local_la8" ce5c6517-4f7b-4ea1-a718-b92b1ea2cb55
+2015-06-04T13:17:46.002198000 2.853529s notice: A newer version of the RethinkDB server is available: 2.0.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-06-04T15:47:55.609009000 8696.647962s notice: Server got SIGINT from pid 347, uid 503; shutting down...
+2015-06-04T15:47:55.650583000 8696.689536s notice: Shutting down client connections...
+2015-06-04T15:47:55.686226000 8696.725179s notice: All client connections closed.
+2015-06-04T15:47:55.686413000 8696.725366s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-04T15:47:55.836378000 8696.875331s notice: Storage engine shut down.

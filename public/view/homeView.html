@@ -1,0 +1,102 @@
+<div layout="column" layout-fill>
+	<md-toolbar md-scroll-shrink>
+	    <div class="md-toolbar-tools">
+	      <h3>
+	        <span>My App Title</span>
+	      </h3>
+	    </div>
+	</md-toolbar>
+</div>
+
+<div class="carddemoBasicUsage">
+
+	<md-content layout="column" layout-align="center center">
+    <md-card layout="row">
+
+    	<div flex>
+	    	<md-content layout="column" layout-align="center start">
+	    		<div class="post">
+		    		<md-card ng-repeat= "posts in showPosts">
+		    			<md-card-content>
+			    			<hm-read  
+					        hmtext="{{ posts.content }}" 
+					        hmlimit="100" 
+					        hm-more-text="read more" 
+					        hm-less-text="read less">
+								</hm-read>
+		    				<div class="md-actions" layout="row" layout-align="end center">
+					        <md-button ng-click="deletePosts(posts.id, $index)">Delete Post</md-button>
+					        <a ng-href="#/posts/{{posts.id}}"><md-button> Add Post</md-button></a>
+					        <!-- <md-button ng-click="showDialog($event, $index, posts.id)">Add Comment</md-button> -->
+					      </div>
+		    			</md-card-content>
+		    		</md-card>
+		    	</div>
+		    </md-content>
+		    <form ng-submit="createPosts()">
+    
+				  <div class="group" >   
+				    <label>Write Your Post</label>   
+				    <textarea name="postContent" id='postContent' ng-model='postContent'></textarea>
+				    <span class="highlight"></span>
+				    <span class="bar"></span>
+	    			<md-button class="md-raised md-primary">Create Post</md-button>
+
+				  </div>
+				</form>
+	    </div>
+
+	    <div flex>
+	    	<!-- <form ng-submit="createPosts()">
+    
+				  <div class="group">   
+				    <label>Write Your Post</label>   
+				    <input type="text" ng-model="content" >
+				    <textarea name="postContent" id='postContent' ng-model='postContent'></textarea>
+				    <span class="highlight"></span>
+				    <span class="bar"></span>
+	    			<md-button class="md-raised md-primary">Create Post</md-button>
+
+				  </div> -->
+				</form>
+	    </div>
+	  </md-card>
+	</md-content>
+		      <!-- <md-card-content>
+		        <h2 class="md-title">{{posts.content}}</h2>
+		      </md-card-content>
+		      <div class="md-actions" layout="row" layout-align="end center">
+		        <md-button>Action 1</md-button>
+		        <md-button>Action 2</md-button>
+		      </div> -->
+		  
+		  <!-- </div> -->
+		  <!-- <div flex> -->
+		  <!-- </div> -->
+</div>
+
+		<!-- <ul>
+			<li ng-repeat="posts in showPosts">
+				{{posts.content}}
+			</li>
+		</ul -->
+	<!-- <form ng-submit="createPosts()">
+		<input type="text" ng-model="content">
+		<input type="submit" name="submit" ng-click="getAll()">
+	</form>
+			<! {{posts.content}} -->
+		<!-- <ul>
+			<li ng-repeat="posts in showPosts">
+				{{posts.content}}
+				<input type="submit" value="delete" ng-click="deletePosts(posts.id, $index)">
+
+				<form ng-submit="createComments(posts, comment)">
+					<input type="text" ng-model="comment">
+					<input type="submit">
+				</form>
+				<! <input type="submit" value="comments" ng-click="createComments(posts.id, $index)"> -->
+
+			<!-- </li> -->
+		<!-- </ul>  -->
+				<!-- <input type="submit" value="comments" ng-click="createComments(posts.id, $index)"> -->
+	<!-- {{createdPosts}} -->

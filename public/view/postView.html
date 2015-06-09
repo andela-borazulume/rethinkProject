@@ -1,0 +1,34 @@
+<div>
+	<md-content layout="column" layout-align="center start">
+		<h3>Add Comment</h3>
+			<div class="post">
+				<md-card>
+					<md-card-content>
+						<p ng-bind-html="currentPost.content"></p>
+
+						<div class="md-actions" layout="row" layout-align="end center">
+			        <md-button ng-click="showDialog($event, $index, currentPost)">Add Comment</md-button>
+			      </div>
+
+			      <md-toolbar class="md-theme-light">
+					    <h2 class="md-toolbar-tools">
+					      <span>Comment</span>
+					    </h2>
+					  </md-toolbar>
+					  <md-content>
+					    <md-list>
+					      <md-list-item class="md-3-line" ng-repeat="comments in currentPost.comments">
+					        <div class="md-list-item-text">
+					  				<!-- {{comment}} -->
+					          <h3>{{comments.body}}</h3>
+					          <md-button ng-click="deleteComment(comments.id, $index)">Delete</md-button>
+					        </div>
+					        <md-divider ng-if="!$last"></md-divider>
+					      </md-list-item>
+					    </md-list>
+					  </md-content>
+					</md-card-content>
+				</md-card>
+			</div>
+	</md-content>
+</div>

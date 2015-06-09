@@ -1,0 +1,16 @@
+<span ng-if="hmtext.length > hmlimit" class="showAndHide">
+	<span  ng-hide="hmfulltext" class="hmblink" >
+		<span ng-bind-html="hmtext | limitTo:hmlimit"></span>
+		<a ngclass="{{ hmMoreClass }}" ng-click="toggleValue()">{{ hmMoreText }}</a>
+	</span>
+
+	<span ng-show="hmfulltext" class="hmblink">
+		<span ng-bind-html="hmtext"></span>
+		<a ng-class="{{ hmLessClass }}" ng-click="toggleValue()">{{ hmLessText }}</a>
+	</span>
+
+</span>
+
+<span ng-if="hmtext.length <= hmlimit">
+	<span ng-bind-html="hmtext"></span>
+</span>

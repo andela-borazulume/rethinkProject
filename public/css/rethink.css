@@ -1,0 +1,49 @@
+input {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+
+input:focus { 
+  outline:none;
+ }
+
+ .carddemoBasicUsage md-card {
+  /*height: 300px; */
+  padding-top: 50px;
+  width: 70em;
+}
+
+.group { 
+  position:relative; 
+  margin-bottom:45px; 
+  padding-top: 20px;
+}
+
+.post md-card {
+  /*height: 400px; */
+  width: 560px;
+
+} 
+
+.toolbardemoScrollShrink .face {
+  width: 48px;
+  margin: 16px;
+  border-radius: 48px;
+  border: 1px solid #ddd; 
+}
+
+ #postContent {
+  padding-top: 70px;
+ }
+
+.showAndHide a {
+    color:blue;
+    cursor:pointer;
+}
+.hmblink{
+ transition:all .2s linear;
+}

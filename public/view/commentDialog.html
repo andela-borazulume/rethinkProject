@@ -1,0 +1,15 @@
+<md-dialog aria-label="Mango (Fruit)" flex="35" flex-lg="60" flex-sm="100" flex-md="30">
+  <md-dialog-content>
+  	<!-- <md-subheader class="md-sticky-no-effect dialog-title"> Create a Project</md-subheader> -->
+    <div class="dialog-content">
+    	<form ng-submit="createComment()">
+        <label> Write your comment </label>
+        <input class="form-control" ng-model="newComment">
+    		<md-button class="md-primary">Comment</md-button>
+        <md-button ng-click="closeDialog()" class="md-primary">Cancel</md-button>
+      </form>
+    </div>
+    
+
+	</md-dialog-content>
+</md-dialog>
